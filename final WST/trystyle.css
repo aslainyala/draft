@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.header{
+    background-color: #FFABAB;
+    color: #f83253;
+    text-align: center;
+    padding: 80px;
+}
+.header h1{
+    font-size: 80px;
+}
+.header p{
+    font-style:italic;
+    font-size: 20px;
+}
+.navbar {
+    background-color: #FF8E9E;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: 0;
+}
+.navbar a.right{
+    float: right;
+}
+.navbar a:hover{
+    background-color: white;
+    color:  #FF8E9E;
+    font-weight: bold;
+}
